@@ -31,13 +31,13 @@ def queryNivel(queryURL,headersValues,elementList,cuenca):
 currentDir = os.path.dirname(__file__)
 filename = "embalses_dataset.csv"
 filePath = os.path.join(currentDir, filename)
-Urls=["https://www.embalses.net/cuenca-2-duero.html","https://www.embalses.net/cuenca-5-ebro.html","https://www.embalses.net/cuenca-3-tajo.html"]
-Cuencas=["Duero","Ebro","Tajo"]
+Urls=["https://www.embalses.net/cuenca-2-duero.html","https://www.embalses.net/cuenca-5-ebro.html","https://www.embalses.net/cuenca-3-tajo.html","https://www.embalses.net/cuenca-6-guadiana.html","https://www.embalses.net/cuenca-4-guadalquivir.html"]
+Cuencas=["Duero","Ebro","Tajo","Guadiana","Guadalquivir"]
 headerValues={}
 embalsesList=[]
 headerList=["Pantano","Capacidad","Embalsada","Variacion","Cuenca"]
 embalsesList.append(headerList)
-for i in range(0,3):
+for i in range(0,5):
     queryNivel(Urls[i],headerValues,embalsesList,Cuencas[i])
 with open(filePath, 'w', newline='') as csvFile:
   writer = csv.writer(csvFile)
