@@ -21,6 +21,7 @@ La actividad ha sido realizada de manera individual por **Sergio García Fernán
 ## Ficheros del código fuente
 
 * **scraper.py**: contiene la implementación que genera el conjunto de datos a partir de las diferentes web que facilita http://embalses.net, de donde se obtienen los datos de los embalses, según la cuenca a la pertenezcan.
+* En la carpeta pdf, se encuentran el archivo **respuesta.rmd**, y el pdf que se ha generado **respuesta.pdf**, con la imagen descriptiva.
 
 ## Recursos
 
