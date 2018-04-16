@@ -20,7 +20,7 @@ La actividad ha sido realizada de manera individual por **Sergio García Fernán
 
 ## Ficheros del código fuente
 
-* **scraper.py**: contiene la implementación de la clase _AccidentsScraper_ cuyos método genera el conjunto de datos a partir de las diferentes web que facilitar http://embalses.net, de donde se obtienen los datos de los embalses, según la cuenca a la pertenezcan.
+* **scraper.py**: contiene la implementación que genera el conjunto de datos a partir de las diferentes web que facilita http://embalses.net, de donde se obtienen los datos de los embalses, según la cuenca a la pertenezcan.
 
 ## Recursos
 
