@@ -7,8 +7,11 @@ Esta práctica se ha realizado bajo el contexto de la asignatura _Tipología y c
 Para ejecutar el script es necesario instalar la siguientes bibliotecas:
 
 pip install pandas
+
 pip install requests
+
 pip install lxml
+
 pip install beautifulsoup4
 
 ## Miembros del equipo
